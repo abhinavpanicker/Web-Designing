@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Sono:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+    <div class="full">
+    <header class="header">
+        <div class="logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Google_Messages_logo.svg" alt="error" height="68" width="68">
+    <h1>Today I Learned</h1>
+        </div>
+        
+    <button class="btn btn-large btn-open">Share a fact</button>
+    </header>
+
+    <form class="form hidden">
+        <input type="text" placeholder="Share a fact with the world...">
+        <span>200</span>
+        <input type="text" placeholder="Trustworthy Source...">
+        <select>
+            <option value="">Choose category:</option>
+            <option value="Technology">Technology</option>
+            <option value="Science">Science</option>
+            <option value="Finance">Finance</option>
+        </select>
+        <button class="btn btn-large">post</button>
+    </form>
+
+
+
+    <main class="main">
+        <aside>
+        <ul>
+            <li><button class="btn btn-all">All</button></li>
+            <li class="category"><button class="btn btn-categories" style="background-color: #3b82f6;">Technology</button></li>
+            <li class="category"><button class="btn btn-categories" style="background-color: rgb(12, 230, 45);">science</button></li>
+        </ul>
+        </aside>
+
+        <section>
+            <ul>
+                <li class="para">
+                    <p >
+                    React is being developed by Meta(formaly facebook)
+                    <a class="link" href="https://opensource.fb.com" target="_blank" >(Source)</a>
+                    </p>
+
+                    <span class="a" style="background-color: #3b82f6;">Technology</span>
+
+                    <div class="vote">
+                        <button>👍 24</button>
+                        <button>🤯 9</button>
+                        <button>⛔ 4</button>
+                    </div>
+                </li>
+
+                <li class="para">
+                    <p >
+                    Millennial dads spend 3 times as much time with the
+                    ir kids than their fathers spent with them.In 1982,43% of fathers and never changed a diper.Today that number is down to 3%
+                    <a class="link" href="https://www.mother.ly/parenting/Millennial-dads-spend-more-time-with-their-kids" target="_blank">(Source)</a>
+                    </p>
+
+                    <span class="a" style="background-color: #eab308;">Society</span>
+
+                    <div class="vote">
+                        <button>👍 19</button>
+                        <button>🤯 7</button>
+                        <button>⛔ 3</button>
+                    </div>
+                </li>
+            </ul>
+        </section
+    </main>
+    </div>
+    <script src="2.js"></script>
+</body>
+</html>
